@@ -1,0 +1,66 @@
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+  }
+
+  
+  h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(35, 190, 69);
+  }
+  
+  label {
+    font-size: 20px;
+    color: #008599;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border: none;
+    background-color: #fff;
+    color: #4f4949;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  select {
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border: none;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    background-color: #e20a0a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #008599;
+    border: 0.5px solid #ccc; /* add border */
+    border-radius: 5px; /* add rounded corners */
+    padding: 2px;
+    background-color: #fff; /* white background */
+  }
+  

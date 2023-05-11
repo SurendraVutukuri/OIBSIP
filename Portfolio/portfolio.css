@@ -1,0 +1,109 @@
+body {
+	background-color: rgb(215, 250, 250);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #91dddf;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+header img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	background-image: url(profile.jpg);
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position-x: right;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+
+section p {
+	line-height: 1.5;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #333;
+	color: #9fec8f;
+	padding: 10px;
+}
+.footer-link{
+    border-style:solid;
+    text-decoration:none;
+    color:white;
+    border:solid #4ab19a;
+    background-color:#4ab19a;
+    border-radius:10%;
+    padding:10px;
+    margin:30px;
+}
+.footer-link:hover{
+    background-color:#bdbdc1;
+    border:solid #e0ebe8; 
+}
+.end-text{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px 0px;
+}
+.copy-right{
+    text-decoration:none;
+}
